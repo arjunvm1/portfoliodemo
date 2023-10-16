@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+nav ul li a{
+    justify-content: space-evenly;
+    margin: 30px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#name{
+    position: relative;
+    top: 1px;
+    left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5{
+    position: relative;
+    top: 4px;
+    left: 20%;
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.overlay-text p {
+    margin: 100;
+}
+.container img{
+    width: 100%;
+    height: 97%;
+}
+.cv{
+    background-color: rgb(0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 615px;
+}
+.gallery{
+    justify-content: center;
+    margin-left: 150px;
+    width: 100%;
+}
+.gallery img{
+    position: relative;
+    margin-left: 70px;
+    width: 400px;
+    height: 429px;
+    margin:30px;
+    margin-bottom: 10px;
+}
+.gallery image:hover{
+    box-shadow: 3px 4px 4px 4px rgb(206, 201, 201);
+}
+h3{
+text-align: center;
+}
+
+.contact{
+    position: relative;
+    right:40px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact Us Link Styling */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* Hover effect for social media links */
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border: 2px ridge rgb(255, 255, 255);
+    margin: 20px;
+    background: linear-gradient(to top,rgb(73, 71, 71),50%,rgb(32, 31, 31) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    border-radius: 5px;
+}
+.box:hover{
+    background-position: right bottom ;
+    border: none;
+    box-shadow: 3px 5px 6px 2px rgb(226, 224, 228);
+}
+
+.box img{
+     width: 100%;
+}
+box h4{
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+.row img{
+    height: 165px;
+}
+
+
+
+
+
